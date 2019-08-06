@@ -1,0 +1,17 @@
+@import "./model.less";   //@import 引入其他css
+
+.layer{
+    width: 600px;
+    height:200px;
+    background-color:green;
+
+    // ·>不能写· 否则不能解析成css
+    > div{
+        width:400px;
+        height:100px;
+        background:url("../../assets/logo.png");
+    }
+
+
+ 
+}
